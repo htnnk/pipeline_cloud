@@ -2,8 +2,8 @@ name: Hourly Stock Data Pipeline
 
 on:
   schedule:
-    # Runs at minute 0 of every hour (UTC)
-    - cron: '0 * * * *'
+    # Runs at minute 17 of every hour (UTC)
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 jobs:
