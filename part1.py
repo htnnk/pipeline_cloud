@@ -36,3 +36,5 @@ df_final = df_final.dropna()
 df_final.to_sql('stock_prices', engine, if_exists='append', index=False)
 
 print('Data successfully uploaded to Supabase!')
+
+print(df_final)
