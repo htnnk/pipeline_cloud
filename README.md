@@ -4,7 +4,7 @@ This is a simple project that takes the data provided by the Yahoo Finance API (
 
 ## Build With
 * **Python 3** (Pandas, yfinance, sqlalchemy, psycopg2-binary)
-* **Supabase** (Cloud infrasruture to store the filtred data)
+* **Supabase** (Cloud infrasruture to store the filtered data)
 * **GitHub Actions** (Automation: automate the fetching data)
 * **Power BI** (BI Visualization & Reporting)
 
